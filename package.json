@@ -1,0 +1,32 @@
+{
+  "name": "multigm",
+  "version": "1.0.0",
+  "description": "\"to generate to many mail form your gmail account.\"",
+  "main": "app.js ",
+  "scripts": {
+    "test": "node app.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/princekrvert/multigm.git"
+  },
+  "keywords": [
+    "princekrvert",
+    "multigm",
+    "nodejs",
+    "javascript",
+    "termux",
+    "kali-linux",
+    "parrot-os"
+  ],
+  "author": "prince kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/princekrvert/multigm/issues"
+  },
+  "homepage": "https://github.com/princekrvert/multigm#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0",
+    "string-validator": "^1.0.5"
+  }
+}
