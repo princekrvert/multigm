@@ -5,8 +5,21 @@
 const process = require("process");
 const fs = require('fs');
 const prompt = require("prompt-sync")();
-// take a input from the user .. 
+//make a function for banner 
+function banner(){
+	process.stdout.write("\033[31;1m ");
+	process.stdout.write(`
+███╗   ███╗██╗   ██╗██╗  ████████╗██╗   ██╗ ██████╗ ███╗   ███╗
+████╗ ████║██║   ██║██║  ╚══██╔══╝██║   ██║██╔════╝ ████╗ ████║
+██╔████╔██║██║   ██║██║     ██║   ██║   ██║██║  ███╗██╔████╔██║
+██║╚██╔╝██║██║   ██║██║     ██║   ██║   ██║██║   ██║██║╚██╔╝██║
+██║ ╚═╝ ██║╚██████╔╝███████╗██║   ╚██████╔╝╚██████╔╝██║ ╚═╝ ██║
+╚═╝     ╚═╝ ╚═════╝ ╚══════╝╚═╝    ╚═════╝  ╚═════╝ ╚═╝     ╚═╝
+                                                               
+`);
+}
 
+// take a input from the user .. 
 // create a function to check for the valid gmail address 
 function checkG(gmail){
     var regX = /[a-zA-Z0-9]@gmail.com/gm;
@@ -18,6 +31,7 @@ function checkG(gmail){
         return false;
     }
 }
+banner();
 let gMail = prompt("[~] Enter a gmail: " );
 if (checkG(gMail)){
     // ask the user , how many mailt they want .. 
