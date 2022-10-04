@@ -22,3 +22,7 @@
 *`chmod +x *`
 
 *`node app.js`
+
+##Screenshot
+
+![Screenshot_20221004-074431_Termux](https://user-images.githubusercontent.com/56459297/193720420-6b068a3e-88d8-4969-b49e-cbb36d0eb8ef.jpg)
