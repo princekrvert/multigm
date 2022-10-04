@@ -6,3 +6,19 @@
 
 
 ![20221003_215403](https://user-images.githubusercontent.com/56459297/193714958-7c7a12cb-08ec-4176-a9b4-af247769f924.jpg)
+
+## Termux installation 
+*`apt update && apt upgrade`
+
+*`pkg install nodejs-lts`
+
+*`git clone https://github.com/princekrvert/multigm.git`
+
+*`cd multigm`
+
+
+*`npm install `
+
+*`chmod +x *`
+
+*`node app.js`
