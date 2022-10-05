@@ -49,7 +49,7 @@ if (checkG(gMail)){
                     var gmailA = gMail.split("@");
                     // make mass mail here
                      console.log("");
-                     console.log(`${gmailA[0]}+${dataA[i]}@${gmailA[1]}`);
+                     console.log(`${gmailA[0]}+${dataA[i].trim()}@${gmailA[1]}`);
                 }
             }
 
